@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+    android:weightSum="1">
+
+        <Button
+            android:text="Discover"
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_discover"
+            android:background="#00A6A6"
+            style="@style/Widget.AppCompat.Button.Colored" />
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_weight="0.40"
+            android:id="@+id/spinner_devices"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:text="Connect"
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_connect"
+            android:background="#00A6A6"
+            style="@style/Widget.AppCompat.Button.Colored" />
+
+</LinearLayout>
